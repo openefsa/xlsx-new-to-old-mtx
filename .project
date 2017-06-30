@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>FoodEx2OldXlsxRestorer</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>naming_convention</name>
+			<type>2</type>
+			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueXmlToXlsx/naming_convention</location>
+		</link>
+		<link>
+			<name>open-xml-reader</name>
+			<type>2</type>
+			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueBrowser/open-xml-reader</location>
+		</link>
+		<link>
+			<name>progress-bar</name>
+			<type>2</type>
+			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueBrowser/progress-bar</location>
+		</link>
+		<link>
+			<name>sheet-header</name>
+			<type>2</type>
+			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueXmlToXlsx/sheet-header</location>
+		</link>
+		<link>
+			<name>user-interface</name>
+			<type>2</type>
+			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueXmlToXlsx/user-interface</location>
+		</link>
+	</linkedResources>
+</projectDescription>
