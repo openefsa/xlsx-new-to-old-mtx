@@ -39,6 +39,26 @@ public class DataSheetConverter extends SheetConverter {
 			// to write it into the old xlsx format
 
 			value = rs.getString( columnName );
+			
+			// if null value, get the other column for attributes
+			if ( value == null || value.isEmpty() ) {
+				switch ( columnName ) {
+				// if empty foodex old code get isscaap
+				case OldHeaders.FOODEX_OLD_CODE:
+					value = rs.getString( OldHeaders.ISSCAAP );
+					break;
+					
+				// if empty matrix get taxonomic
+				case OldHeaders.MATRIX_CODE:
+					value = rs.getString( OldHeaders.TAXONOMIC_CODE );
+					break;
+				
+				// if empty gems get alpha
+				case OldHeaders.GEMS_CODE:
+					value = rs.getString( OldHeaders.ALPHA_CODE );
+					break;
+				}
+			}
 		}
 		
 		return value;

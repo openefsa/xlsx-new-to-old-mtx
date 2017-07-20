@@ -16,6 +16,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>messages</name>
+			<type>2</type>
+			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueBrowser/messages</location>
+		</link>
+		<link>
 			<name>naming_convention</name>
 			<type>2</type>
 			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueXmlToXlsx/naming_convention</location>

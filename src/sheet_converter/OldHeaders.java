@@ -17,7 +17,10 @@ public class OldHeaders {
 
 	public static final String FOODEX_OLD_CODE = "foodexOldCode";
 	public static final String MATRIX_CODE = "matrixCode";
+	public static final String TAXONOMIC_CODE = "taxonomicCode";
 	public static final String GEMS_CODE = "GEMSCode";
+	public static final String ALPHA_CODE = "alpha3Code";
+	public static final String ISSCAAP = "ISSCAAP";
 	public static final String LANGUAL_CODE = "LangualCode";
 	public static final String CODE = "code";
 	public static final String NAME = "name";
