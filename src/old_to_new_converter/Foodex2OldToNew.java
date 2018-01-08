@@ -9,11 +9,11 @@ import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import naming_convention.Headers;
 import open_xml_reader.ResultDataSet;
 import open_xml_reader.WorkbookReader;
+import progress_bar.FormProgressBar;
 import sheet_converter.AttribSheetConverter;
 import sheet_converter.DataSheetConverter;
 import sheet_converter.OldHeaders;
 import sheet_converter.SheetConverter;
-import ui_progress_bar.FormProgressBar;
 
 /**
  * This class takes as input the new xlsx format file

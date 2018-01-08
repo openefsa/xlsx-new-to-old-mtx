@@ -10,7 +10,7 @@ import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.swt.widgets.Shell;
 
 import old_to_new_converter.Foodex2OldToNewThread;
-import ui_progress_bar.FormProgressBar;
+import progress_bar.FormProgressBar;
 import user_interface.InputFileForm.ConvertionStartedListener;
 
 /**

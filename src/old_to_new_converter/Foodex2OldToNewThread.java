@@ -3,7 +3,7 @@ package old_to_new_converter;
 import org.eclipse.swt.widgets.Event;
 import org.eclipse.swt.widgets.Listener;
 
-import ui_progress_bar.FormProgressBar;
+import progress_bar.FormProgressBar;
 
 public class Foodex2OldToNewThread extends Thread {
 
