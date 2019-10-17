@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>MTX Catalogue - new to old format converter</name>
+	<name>xlsx-new-to-old-mtx</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,25 +10,14 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>naming_convention</name>
-			<type>2</type>
-			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueXmlToXlsx/naming_convention</location>
-		</link>
-		<link>
-			<name>sheet-header</name>
-			<type>2</type>
-			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueXmlToXlsx/sheet-header</location>
-		</link>
-		<link>
-			<name>user-interface</name>
-			<type>2</type>
-			<location>C:/Users/avonva/Desktop/CatalogueBrowser/CatalogueXmlToXlsx/user-interface</location>
-		</link>
-	</linkedResources>
 </projectDescription>
